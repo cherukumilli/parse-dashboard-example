@@ -1,0 +1,26 @@
+{
+  "name": "Parse Dashboard Example",
+  "description": "An example Parse Dashboard server using the parse-dashboard module",
+  "repository": "https://github.com/biztek/parse-dashboard-example",
+  "logo": "https://avatars2.githubusercontent.com/u/5217007?v=3&u=52845c74db401e9fc5df5673460f4d6835a6118a&s=200",
+  "keywords": ["node", "express", "parse", "dashboard"],
+  "env": {
+    "APP_ID": {
+      "description": "A unique identifier for your app.",
+      "value": "myAppId"
+    },
+    "MASTER_KEY": {
+      "description": "A key that overrides all permissions. Keep this secret.",
+      "value": "myMasterKey"
+    },
+    "SERVER_URL": {
+      "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
+      "value": "http://yourappname.herokuapp.com/parse"
+    },
+    "APP_NAME": {
+      "description": "The name of the app that will show up in the dashboard.",
+      "value": "myAppName"
+    },
+  },
+  "image": "heroku/nodejs"
+}
