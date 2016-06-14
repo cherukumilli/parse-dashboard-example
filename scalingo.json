@@ -1,7 +1,7 @@
 {
   "name": "Parse Dashboard Example",
   "description": "An example Parse Dashboard server using the parse-dashboard module",
-  "repository": "https://github.com/biztek/parse-dashboard-example",
+  "repository": "https://github.com/cherukumilli/parse-dashboard-example",
   "logo": "https://avatars2.githubusercontent.com/u/5217007?v=3&u=52845c74db401e9fc5df5673460f4d6835a6118a&s=200",
   "env": {
     "APP_ID": {
