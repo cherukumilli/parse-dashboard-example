@@ -1,6 +1,6 @@
 {
   "name": "parse-dashboard-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An example Parse Dashboard server using the parse-dashboard module",
   "main": "index.js",
   "repository": {
