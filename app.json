@@ -20,7 +20,7 @@
     "APP_NAME": {
       "description": "The name of the app that will show up in the dashboard.",
       "value": "myAppName"
-    },
+    }
   },
   "image": "heroku/nodejs"
 }
