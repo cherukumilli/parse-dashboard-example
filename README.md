@@ -51,15 +51,23 @@ httpServer.listen(port, function() {
 
 ### Getting Started With Heroku Development
 
-#### With the Heroku Button
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-#### Without It
+#### Using Heroku CLI
 
 * Clone the repo and change directory to it
 * Log in with the [Heroku Toolbelt](https://toolbelt.heroku.com/) and create an app: `heroku create`
 * Deploy it with: `git push heroku master`
+* Open the Heroku dashboard->settings page for your app at: https://dashboard.heroku.com/apps/`<your app name>`/settings
+* Click on `Reveal Config Vars` button on the Heroku settings page
+* Add the following `Config Vars`. Set them to the values for your `parse-server`
+* APP_ID
+* MASTER_KEY
+* SERVER_URL
+* APP_NAME
+
+#### With the Heroku Button
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 
 ### Getting Started With AWS Elastic Beanstalk
 

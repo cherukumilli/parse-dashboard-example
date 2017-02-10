@@ -1,6 +1,6 @@
 {
   "name": "parse-dashboard-example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An example Parse Dashboard server using the parse-dashboard module",
   "main": "index.js",
   "repository": {
@@ -9,9 +9,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4",
+    "express": "^4.14.1",
     "kerberos": "^0.0.x",
-    "parse-dashboard": "^1.0.15"
+    "parse-dashboard": "^1.0.24"
   },
   "scripts": {
     "start": "node index.js"
