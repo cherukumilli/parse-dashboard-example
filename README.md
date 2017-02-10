@@ -1,5 +1,7 @@
 # parse-dashboard-example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cherukumilli/parse-dashboard-example.svg)](https://greenkeeper.io/)
+
 Example project using the [parse-dashboard](https://github.com/ParsePlatform/parse-dashboard) module on Express.
 
 ### For Local Development
