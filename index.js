@@ -15,14 +15,10 @@ var dashboard = new ParseDashboard({
       masterKey: process.env.MASTER_KEY || 'myMasterKey',
       serverURL: process.env.SERVER_URL || herokuParseServer || localParseServer,
       appName: process.env.APP_NAME || 'MyApp',
-      users: [
-        { user: "username", pass: "password" }
-      ],
-      trustProxy: 1
     },
   ],
   users: [
-    { user: "username", pass: "password" }
+    { user: process.env.USERNAME, pass: process.env.PASSWORD }
   ],
   trustProxy: 1
 });
