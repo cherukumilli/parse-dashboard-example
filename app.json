@@ -26,7 +26,7 @@
       "value": "stefanayala3266@gmail.com"
     },
     "PASSWORD": {
-      "description": "The password of the account to log into the dashboard.",
+      "description": "The password of the account to log into your dashboard.",
       "value": "parse"
     }
   },
