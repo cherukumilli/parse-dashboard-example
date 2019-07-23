@@ -21,6 +21,10 @@ var dashboard = new ParseDashboard({
       trustProxy: 1
     },
   ],
+  users: [
+    { user: "username", pass: "password" }
+  ],
+  trustProxy: 1
 });
 
 var app = express();
