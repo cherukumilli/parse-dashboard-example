@@ -16,7 +16,7 @@ var dashboard = new ParseDashboard({
       serverURL: process.env.SERVER_URL || herokuParseServer || localParseServer,
       appName: process.env.APP_NAME || 'MyApp',
       users: [
-        { user: process.env.USERNAME, pass: process.env.PASSWORD }
+        { user: "username", pass: "password" }
       ],
       trustProxy: 1
     },
