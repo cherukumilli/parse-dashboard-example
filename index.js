@@ -17,7 +17,8 @@ var dashboard = new ParseDashboard({
       appName: process.env.APP_NAME || 'MyApp',
       users: [
         { user: process.env.USERNAME, pass: process.env.PASSWORD }
-      ]
+      ],
+      trustProxy: 1
     },
   ],
 });
