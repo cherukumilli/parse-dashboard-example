@@ -2,7 +2,6 @@
 
 var express = require('express');
 var ParseDashboard = require('parse-dashboard');
-var path = require('path');
 
 let localParseServer = 'http://localhost:1337/parse';
   // Heroku requires HTTPS. Please read the README file for details.

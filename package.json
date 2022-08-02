@@ -5,12 +5,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cherukumilli/parse-dashboard-example"
+    "url": "https://github.com/louis70109/parse-dashboard-example"
   },
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
-    "kerberos": "^0.0.x",
     "parse-dashboard": "^4.1.4"
   },
   "scripts": {
