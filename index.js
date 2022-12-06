@@ -2,11 +2,11 @@
 
 var express = require('express');
 var ParseDashboard = require('parse-dashboard');
-var path = require('path');
 
 let localParseServer = 'http://localhost:1337/parse';
   // Heroku requires HTTPS. Please read the README file for details.
 let herokuParseServer = 'https://my-parse-dashboard.herokuapp.com/parse';
+let allowInsecureHTTP = true;
 
 var dashboard = new ParseDashboard({
   apps: [
@@ -21,7 +21,7 @@ var dashboard = new ParseDashboard({
     { user: process.env.USERNAME, pass: process.env.PASSWORD }
   ],
   trustProxy: 1
-});
+}, allowInsecureHTTP);
 
 var app = express();
 app.enable('trust proxy');
